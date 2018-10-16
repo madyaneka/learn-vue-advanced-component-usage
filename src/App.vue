@@ -26,4 +26,7 @@
 </script>
 
 <style>
+  h2 {
+    color: rebeccapurple;
+  }
 </style>
