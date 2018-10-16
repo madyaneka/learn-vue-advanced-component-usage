@@ -1,6 +1,12 @@
 <template>
   <div>
-    <slot></slot>
+    <div class="title">
+      <slot name="title"></slot>
+    </div>
+    <hr>
+    <div class="content">
+      <slot name="content"></slot>
+    </div>
   </div>
 </template>
 
@@ -17,5 +23,9 @@ export default {
     padding: 30px;
     margin: 30px auto;
     text-align: center;
+  }
+
+  .title {
+    font-style: italic;
   }
 </style>
